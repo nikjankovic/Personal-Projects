@@ -1,0 +1,35 @@
+"""**Scope**
+
+DOTA is a strategic multi-player game where 2 teams of 5 (in total 10 unique characters or heroes) fight against each other on a battle arena. To increase a team's chances of winning, the curation of a balanced composition of the characters or heroes within the team is vital. DOTA disallows players to have duplicate heroes playing in a game. As such, players take turns choosing heroes. To offer a fair opportunity to all players, hero selection across players' teams follow a 1-2-2 & 2-2-1 rule where the first player gets their first pick from the entire pool of possible heroes, the second player is allowed to select 2 heroes for their team. The first player then selects 2 heroes and so on until 10 unique heroes have been chosen.
+
+
+> Objective 1: Given the heroes that have been selected by player 1 at each of their turns, create a program for player 2 which suggests which heroes to select for their team.
+
+
+> Objective 2: Round 2 of hero selection for player 2 based on player 1 and previously selected heroes for player 2.
+
+
+Additional scope
+
+-Addtional Weighing Criteria:
+
+1. ~Add additional pairwise matrix with weight given to heroes who are complimentary to current selection.~ DONE
+
+2. Provide multiple role options for heroes, each with its own weight.
+
+3. Reduce weight of available choice when 3 selections of the same attack type have been made.
+
+4.
+
+-Allow all available heroes to be picked, regardless of weight. Display weight of available selections when selecting heroes for p2_team.
+
+-Add banning rounds as per official dota tournament rules.
+
+-Create option to play as Player 1.
+
+-Create matrix with real values
+
+-Create GUI.
+
+
+"""
